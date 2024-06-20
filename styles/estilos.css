@@ -49,7 +49,23 @@ body{
 
 
 
+#UnaIntro {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(17, 17, 121, 0.226);
+    background-image:url("/images/Prueba\ con\ Ren.jpg");
+    text-align: center;
+}
 
+#UnaIntro h1 {
+    font-size: 60px !important;
+}
+
+.Man {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 36% 10px 36%;
+}
 
 
 
