@@ -1,0 +1,337 @@
+body{
+    background-image: url("../images/fondo3.jpg");
+    margin: 0;
+}
+
+.navbarGeneral {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20pxpx;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    background-color: rgb(196, 145, 104);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.navbarPrimerDiv a{
+    color:rgb(101, 25, 172);
+}
+
+.navbarPrimerDiv a:hover{
+    color: greenyellow;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+.navbarSegundoDiv{
+    margin-right: 20px;
+}
+
+.navbarSegundoDiv a{
+    color:rgb(101, 25, 172);
+}
+
+.navbarSegundoDiv a:hover{
+    color: greenyellow;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    color:rgb(153, 107, 196);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+h2{
+    text-align: center;
+    color:rgb(153, 107, 196);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.botonAdoptar{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.botonAdoptar button{
+    background-color: rgb(174, 115, 229);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.botonAdoptar button:hover{
+    background-color: rgb(130, 49, 205);
+}
+
+
+
+.mitades {
+    width:100%;
+    display: flex;
+    background-color: rgba(207, 188, 190, 0.452);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.mitad1{
+    width: 40%;
+    padding-left: 20px;
+}
+
+.mitad2{
+    margin-right: 30px;
+    width: 60%;
+}
+
+
+
+.contenedor1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+}
+
+.contenedor1 td{
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contenedor1 img{
+    border-radius: 90px;
+    transition: transform 0.3s ease;
+}
+
+.contenedor1 img:hover {
+    transform: scale(1.1);
+}
+
+
+.contenedor2 {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(216, 107, 19, 0.541);
+}
+
+.contenedor2 div{
+    margin-bottom: 15px;
+    
+}
+
+.contenedor2 form{
+    padding: 20px;
+}
+
+
+h3{
+    text-align: center;
+    color:rgb(153, 107, 196);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.opiniones{
+    margin-bottom: 30px;
+}
+
+.comentarios {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.comentarios1{
+    padding-left: 40px;
+    width: 25%;
+}
+
+.comentarios2{
+    padding-left: 40px;
+    width: 25%;
+}
+
+.comentarios3{
+    padding-left: 40px;
+    width: 25%;
+}
+
+.cartas{
+    height: 400px;
+}
+
+.card-body{
+    background-color: rgb(211, 128, 223);
+}
+
+
+.footer {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.811);
+}
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+
+
+
+.login-form {
+    width: 400px;
+    margin: 150px auto;
+    padding: 25px;
+    background-color: rgb(213, 240, 186);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+
+  .btn-center{
+    text-align: center;
+  }
+
+  .marginFormulario{ 
+    margin-bottom: 15px;
+  }
+  
+  .marginFormulario label{
+    margin-bottom: 10px;
+  }
+
+  .marginFormulario button{
+    margin-bottom: 15px;
+  }
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+
+
+
+  #Estilo {
+    background-color: rgba(71, 39, 189, 0.507);
+}
+
+#Titulo {
+   text-align: center;
+   font-size: 60px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#SubTits {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 26%;
+    margin-right: 26%;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+
+.lefties {
+    /* background-color: rgba(97, 35, 155, 0.479); */
+    margin-left: 15%;
+}
+
+
+.lefties h3 {
+    text-align: center;
+}
+
+
+.righties {
+    margin-left: 55%;
+    padding-right: 10%;
+}
+
+
+.righties h3 {
+    text-align: center;
+}
+
+
+.Difus{
+    padding-top: 60px;
+    padding-left: 27%;
+    padding-right: 27%;
+    text-align: center;
+}
+
+.items {
+    width: 30%;
+    padding: 0% 2% 2% 2%;
+    background-color: rgba(97, 35, 155, 0.479);
+}
+
+.Cuadro {
+    border: 2px;
+    border-style: dashed;
+    background-color: rgba(236, 76, 76, 0.692);
+}
