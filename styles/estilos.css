@@ -43,6 +43,9 @@ body{
 .navbarSegundoDiv a{
     color:rgb(101, 25, 172);
     transition: transform 0.3s ease;
+    animation: animacion1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 
 .navbarSegundoDiv a:hover{
@@ -53,7 +56,32 @@ body{
 }
 
 
+@keyframes animacion3 {
+    from {
+        color: rgb(157, 117, 191); }
+    to {
+        color: rgb(63, 36, 104); } }
 
+@keyframes animacion2 {
+    from {
+      background-color: rgb(181, 147, 210); }
+    to {
+       background-color: rgb(148, 97, 193); } }
+  
+@keyframes animacion1 {
+    0% {
+      transform: scale(1); }
+    50% {
+      transform: scale(1.1); }
+    100% {
+      transform: scale(1); } }
+
+ @keyframes animacion4 {
+        from {
+            color: rgb(0, 0, 0); }
+        to {
+            color: #314652; } }
+      
 
 
 #unaIntro {
@@ -83,12 +111,16 @@ body{
     font-weight: bold;
     color: black;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 4px dashed aquamarine;
+    border: 4px solid aquamarine;
+    animation-name: animacion2;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 .botonAdoptar a:hover{
     background-color:rgb(148, 97, 193);
-    border: 4px solid aquamarine;
+    border: 4px dashed aquamarine;
 }
 
 
@@ -558,10 +590,21 @@ margin-top: 30px;
     padding-bottom: 0.4%;
 }
 
+.seccionAdopciones .card{
+    border-radius: 20px;
+}
+
 #Estilo{
     margin-bottom: 30px;
     padding-top: 20px;
-    
+    font-family: "Architects Daughter", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+    animation-name: animacion4;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 .primeraFila{
@@ -575,8 +618,10 @@ margin-top: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-around;
 }
+
 
 .segundaFilaUno{
     margin-right: 45%;
@@ -590,4 +635,80 @@ margin-top: 30px;
 .segundaFila .card-body{
     background-image: linear-gradient(to bottom, #d6baded1, #6a4777d1);
     font-family: "Kanit", sans-serif;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------ */
+
+
+
+.tituloRefugios{
+    animation-name: animacion3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+
+.EtiquetaRefu {
+    background-color: rgba(214, 216, 104, 0.644);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin: 20px 10% 20px 10%;
+    border-radius: 20px;
+}
+
+.RefuImg {
+    width: 30%;
+    animation-name: animacion1;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+.RefuImg img{
+    border-radius: 30px;
+    width: 80%;
+    height: 80%;
+}
+
+.EtiquetaRefu h2 {
+    font-family: "Playwrite ES", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: start;
+}
+
+.EtiquetaRefu div {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    padding-left: 3%;
+}
+.RefuDescrip {
+    width: 70%;
+}
+
+.RefuDescrip h2 {
+    padding-bottom: 20px;
+}
+
+.RefuDescrip div {
+    font-family: "Architects Daughter", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
